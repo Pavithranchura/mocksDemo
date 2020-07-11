@@ -1,0 +1,30 @@
+{
+  "id" : "648c0f7e-c521-4226-a0e9-c9c45f03609e",
+  "name" : "api_bank-accounts",
+  "request" : {
+    "url" : "/api/bank-accounts",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 401,
+    "body" : "{\n  \"type\" : \"https://www.jhipster.tech/problem/problem-with-message\",\n  \"title\" : \"Unauthorized\",\n  \"status\" : 401,\n  \"detail\" : \"Full authentication is required to access this resource\",\n  \"path\" : \"/api/bank-accounts\",\n  \"message\" : \"error.http.401\"\n}",
+    "headers" : {
+      "x-powered-by" : "Express",
+      "expires" : "0",
+      "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+      "x-xss-protection" : "1; mode=block",
+      "pragma" : "no-cache",
+      "x-frame-options" : "DENY",
+      "referrer-policy" : "strict-origin-when-cross-origin",
+      "content-security-policy" : "default-src 'self'; frame-src 'self' data:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://storage.googleapis.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self' data:",
+      "date" : "Sat, 11 Jul 2020 12:49:23 GMT",
+      "vary" : "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+      "x-content-type-options" : "nosniff",
+      "feature-policy" : "geolocation 'none'; midi 'none'; sync-xhr 'none'; microphone 'none'; camera 'none'; magnetometer 'none'; gyroscope 'none'; speaker 'none'; fullscreen 'self'; payment 'none'",
+      "content-type" : "application/problem+json"
+    }
+  },
+  "uuid" : "648c0f7e-c521-4226-a0e9-c9c45f03609e",
+  "persistent" : true,
+  "insertionIndex" : 6
+}
